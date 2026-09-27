@@ -1,0 +1,501 @@
+CustomerID,Age,Gender,AnnualIncome_k,PurchaseFrequency,AvgOrderValue,SpendingScore,TotalSpend,BusinessSegment,Cluster,Segment
+10001,40,Female,41.7,5,78.98,7.3,374.62,Low Engagement,1,Low Value
+10002,33,Female,48.1,7,21.5,5.4,138.22,Potential,1,Low Value
+10003,42,Male,77.4,5,57.03,8.9,295.06,Potential,2,Potential High Value
+10004,52,Female,31.2,11,70.42,8.7,914.48,Low Engagement,0,Developing
+10005,32,Female,53.1,11,47.41,10.0,411.56,High Value,0,Developing
+10006,32,Male,37.7,10,34.64,10.0,272.37,Frequent / Budget,0,Developing
+10007,52,Male,45.6,16,62.58,10.0,1176.66,Frequent / Budget,0,Developing
+10008,43,Male,80.0,8,73.03,8.6,500.36,Potential,2,Potential High Value
+10009,30,Male,49.0,14,71.03,10.0,1078.33,High Value,0,Developing
+10010,41,Male,46.0,6,61.59,8.1,377.46,Low Engagement,1,Low Value
+10011,30,Male,24.4,11,56.76,8.2,728.28,Low Engagement,0,Developing
+10012,30,Male,63.0,8,38.82,8.5,252.34,Potential,2,Potential High Value
+10013,38,Male,60.2,12,70.57,10.0,690.08,High Value,0,Developing
+10014,18,Female,119.1,8,69.58,8.6,572.45,Potential,2,Potential High Value
+10015,18,Male,39.2,11,34.51,10.0,464.33,Frequent / Budget,0,Developing
+10016,29,Female,49.7,10,61.56,9.0,589.44,Potential,0,Developing
+10017,24,Male,50.3,13,66.75,10.0,792.66,High Value,0,Developing
+10018,38,Female,91.5,6,70.88,7.2,447.97,Potential,2,Potential High Value
+10019,25,Male,43.1,7,53.65,10.0,456.38,Frequent / Budget,0,Developing
+10020,19,Male,51.0,9,39.56,9.3,416.02,Potential,0,Developing
+10021,51,Female,59.2,12,45.96,8.9,688.15,Potential,0,Developing
+10022,33,Female,48.9,6,36.87,7.5,168.41,Potential,1,Low Value
+10023,36,Female,36.8,7,54.08,3.5,305.28,Low Engagement,1,Low Value
+10024,19,Male,49.1,8,50.56,10.0,426.62,High Value,0,Developing
+10025,29,Male,73.0,11,93.61,10.0,1194.76,High Value,2,Potential High Value
+10026,36,Female,28.4,8,71.1,5.5,507.72,Low Engagement,1,Low Value
+10027,22,Female,47.8,9,72.45,7.6,567.03,Potential,0,Developing
+10028,39,Female,32.8,10,63.48,9.6,725.89,Frequent / Budget,0,Developing
+10029,28,Female,77.0,8,48.39,6.9,301.25,Potential,1,Low Value
+10030,32,Male,22.7,8,50.04,10.0,374.18,Frequent / Budget,0,Developing
+10031,28,Female,35.0,9,51.69,10.0,466.56,Frequent / Budget,0,Developing
+10032,55,Male,53.3,12,58.39,10.0,721.82,High Value,0,Developing
+10033,35,Male,91.0,13,62.01,6.8,898.28,Potential,2,Potential High Value
+10034,23,Male,43.7,9,55.01,8.8,459.16,Low Engagement,0,Developing
+10035,44,Male,35.1,12,49.77,9.5,630.89,Frequent / Budget,0,Developing
+10036,22,Male,104.9,6,44.31,6.7,277.21,Potential,2,Potential High Value
+10037,37,Male,23.5,11,29.93,9.2,337.07,Low Engagement,0,Developing
+10038,18,Female,16.7,10,78.1,8.7,835.86,Low Engagement,0,Developing
+10039,20,Male,54.9,10,94.7,10.0,833.1,High Value,0,Developing
+10040,37,Female,35.9,8,76.59,10.0,485.47,Frequent / Budget,0,Developing
+10041,43,Male,28.4,10,32.34,10.0,261.84,Frequent / Budget,0,Developing
+10042,37,Male,61.9,13,69.17,10.0,775.38,High Value,0,Developing
+10043,34,Female,50.2,8,73.43,10.0,587.5,High Value,0,Developing
+10044,32,Male,34.9,11,47.74,10.0,614.53,Frequent / Budget,0,Developing
+10045,19,Male,25.3,8,63.8,9.5,561.77,Frequent / Budget,0,Developing
+10046,27,Male,66.6,5,46.79,7.2,267.76,Potential,1,Low Value
+10047,30,Male,60.3,10,82.52,10.0,763.71,High Value,0,Developing
+10048,47,Female,43.0,5,61.58,10.0,293.22,Frequent / Budget,0,Developing
+10049,39,Male,103.3,8,38.49,6.5,291.55,Potential,2,Potential High Value
+10050,18,Female,27.8,16,67.06,10.0,907.66,Frequent / Budget,0,Developing
+10051,39,Male,22.7,11,74.06,10.0,635.93,Frequent / Budget,0,Developing
+10052,31,Female,33.0,6,58.57,7.2,367.39,Low Engagement,1,Low Value
+10053,28,Female,44.1,8,63.63,6.1,633.56,Low Engagement,1,Low Value
+10054,42,Female,50.2,4,53.74,7.4,179.15,Potential,1,Low Value
+10055,46,Male,40.4,4,34.58,7.4,106.97,Low Engagement,1,Low Value
+10056,45,Male,52.7,9,52.27,10.0,536.18,High Value,0,Developing
+10057,26,Male,25.6,10,64.41,10.0,564.42,Frequent / Budget,0,Developing
+10058,32,Female,86.2,9,52.7,8.7,552.48,Potential,2,Potential High Value
+10059,39,Female,43.4,5,69.41,9.3,382.44,Low Engagement,0,Developing
+10060,46,Female,74.4,7,47.94,10.0,410.36,High Value,2,Potential High Value
+10061,30,Male,52.5,8,49.12,9.4,375.07,Potential,0,Developing
+10062,33,Female,55.3,8,69.96,8.7,605.01,Potential,0,Developing
+10063,23,Female,58.2,5,58.99,7.4,289.77,Potential,1,Low Value
+10064,22,Male,55.0,6,47.59,9.2,304.18,Potential,1,Low Value
+10065,44,Male,60.1,14,73.61,10.0,1004.57,High Value,0,Developing
+10066,50,Female,81.8,12,42.6,10.0,431.61,High Value,2,Potential High Value
+10067,34,Female,49.2,5,41.91,3.2,210.38,Potential,1,Low Value
+10068,46,Female,61.9,9,15.0,6.5,136.93,Potential,1,Low Value
+10069,39,Male,43.2,7,45.03,9.9,364.16,Frequent / Budget,0,Developing
+10070,28,Female,86.0,5,78.56,5.0,439.06,Potential,1,Low Value
+10071,39,Male,33.2,6,17.7,9.9,114.9,Frequent / Budget,1,Low Value
+10072,52,Male,101.2,13,37.87,10.0,397.14,High Value,2,Potential High Value
+10073,35,Male,44.2,10,62.9,10.0,698.38,Frequent / Budget,0,Developing
+10074,52,Female,23.6,8,15.0,9.5,120.02,Frequent / Budget,0,Developing
+10075,18,Female,47.7,12,45.81,10.0,658.04,High Value,0,Developing
+10076,44,Female,33.1,11,75.54,10.0,1005.38,Frequent / Budget,0,Developing
+10077,36,Male,65.7,12,91.77,9.4,856.3,Potential,0,Developing
+10078,32,Female,33.5,14,60.22,10.0,978.24,Frequent / Budget,0,Developing
+10079,36,Male,36.8,10,38.32,10.0,294.62,Frequent / Budget,0,Developing
+10080,18,Female,19.2,8,37.72,6.8,281.72,Low Engagement,1,Low Value
+10081,33,Male,36.7,6,57.61,6.2,352.97,Low Engagement,1,Low Value
+10082,39,Male,15.1,9,60.06,9.7,445.43,Frequent / Budget,0,Developing
+10083,51,Male,22.1,10,88.44,9.9,993.32,Frequent / Budget,0,Developing
+10084,29,Male,63.4,7,72.47,9.7,382.59,High Value,2,Potential High Value
+10085,26,Female,64.1,8,56.51,10.0,377.17,High Value,2,Potential High Value
+10086,29,Male,54.5,8,48.97,5.2,407.59,Potential,1,Low Value
+10087,45,Male,29.1,11,109.26,10.0,1330.69,Frequent / Budget,0,Developing
+10088,39,Female,44.0,11,66.28,10.0,880.96,Frequent / Budget,0,Developing
+10089,29,Male,44.9,7,42.96,9.7,331.62,Frequent / Budget,0,Developing
+10090,41,Female,26.7,5,50.96,9.3,276.68,Low Engagement,1,Low Value
+10091,36,Female,88.5,5,39.21,9.2,185.69,Potential,2,Potential High Value
+10092,46,Female,66.8,5,15.0,7.4,56.3,Potential,1,Low Value
+10093,27,Male,40.7,10,60.63,10.0,491.15,Frequent / Budget,0,Developing
+10094,31,Female,45.5,8,87.08,10.0,708.68,Frequent / Budget,0,Developing
+10095,31,Female,49.4,12,25.65,9.1,334.75,Potential,0,Developing
+10096,19,Male,18.0,9,55.99,6.7,483.11,Low Engagement,1,Low Value
+10097,38,Male,40.3,13,42.28,8.8,613.04,Low Engagement,0,Developing
+10098,38,Female,33.1,11,64.39,10.0,716.03,Frequent / Budget,0,Developing
+10099,35,Female,28.7,5,51.9,6.8,204.25,Low Engagement,1,Low Value
+10100,32,Female,39.7,4,30.52,5.9,103.28,Low Engagement,1,Low Value
+10101,19,Female,101.1,6,37.34,10.0,262.13,High Value,2,Potential High Value
+10102,30,Female,60.0,11,40.05,10.0,490.09,High Value,0,Developing
+10103,31,Male,34.8,6,79.2,8.8,569.0,Low Engagement,0,Developing
+10104,26,Male,58.2,5,78.28,10.0,316.56,High Value,2,Potential High Value
+10105,33,Male,84.5,11,49.4,9.7,676.59,High Value,2,Potential High Value
+10106,39,Female,68.2,7,77.1,9.8,461.28,High Value,2,Potential High Value
+10107,56,Male,46.2,11,51.88,10.0,431.37,Frequent / Budget,0,Developing
+10108,37,Female,33.6,12,49.12,10.0,736.04,Frequent / Budget,0,Developing
+10109,38,Female,61.6,6,56.03,7.4,299.38,Potential,1,Low Value
+10110,34,Female,53.7,9,60.13,10.0,586.63,High Value,0,Developing
+10111,18,Male,67.3,7,45.0,9.9,264.08,High Value,2,Potential High Value
+10112,35,Female,59.9,10,55.39,6.1,576.12,Potential,1,Low Value
+10113,36,Male,72.2,12,69.17,10.0,997.72,High Value,0,Developing
+10114,62,Female,35.4,14,57.33,10.0,730.46,Frequent / Budget,0,Developing
+10115,33,Male,81.4,5,55.77,7.2,302.59,Potential,1,Low Value
+10116,38,Male,49.2,9,63.9,10.0,485.36,High Value,0,Developing
+10117,35,Female,114.5,6,67.0,9.0,427.08,Potential,2,Potential High Value
+10118,22,Male,33.0,12,53.87,8.4,593.58,Low Engagement,0,Developing
+10119,48,Male,98.3,9,46.46,8.9,357.76,Potential,2,Potential High Value
+10120,43,Female,49.2,4,58.41,9.0,211.82,Potential,1,Low Value
+10121,44,Female,33.6,11,26.31,9.4,242.94,Low Engagement,0,Developing
+10122,25,Female,36.2,13,51.21,10.0,799.51,Frequent / Budget,0,Developing
+10123,50,Female,39.0,8,15.0,9.0,113.83,Low Engagement,1,Low Value
+10124,20,Female,54.5,9,24.84,10.0,195.09,High Value,0,Developing
+10125,41,Male,56.9,3,22.13,7.5,64.68,Potential,1,Low Value
+10126,59,Male,34.8,7,73.85,10.0,470.56,Frequent / Budget,0,Developing
+10127,24,Male,44.5,3,55.25,6.5,186.01,Low Engagement,1,Low Value
+10128,29,Female,118.0,12,32.28,10.0,478.63,High Value,2,Potential High Value
+10129,36,Female,97.9,12,63.84,10.0,742.34,High Value,2,Potential High Value
+10130,29,Male,54.8,9,72.8,10.0,773.47,High Value,0,Developing
+10131,18,Male,45.8,15,64.15,10.0,993.94,Frequent / Budget,0,Developing
+10132,36,Female,47.5,14,51.6,10.0,598.59,High Value,0,Developing
+10133,23,Male,59.3,3,59.18,8.8,194.46,Potential,1,Low Value
+10134,40,Female,28.4,13,71.23,8.8,932.21,Low Engagement,0,Developing
+10135,25,Male,40.1,8,46.55,6.8,400.44,Low Engagement,1,Low Value
+10136,52,Female,21.2,10,55.54,10.0,663.62,Frequent / Budget,0,Developing
+10137,26,Male,53.9,7,50.37,8.0,342.09,Potential,1,Low Value
+10138,31,Female,60.2,9,25.96,10.0,280.51,High Value,0,Developing
+10139,44,Female,36.2,10,71.5,10.0,804.61,Frequent / Budget,0,Developing
+10140,21,Female,91.4,8,92.03,6.2,732.05,Potential,2,Potential High Value
+10141,38,Female,25.9,9,39.27,10.0,371.67,Frequent / Budget,0,Developing
+10142,49,Female,23.3,7,72.33,10.0,462.15,Frequent / Budget,0,Developing
+10143,18,Female,49.8,8,39.84,10.0,395.79,High Value,0,Developing
+10144,37,Male,72.1,11,57.39,8.5,684.11,Potential,2,Potential High Value
+10145,38,Female,96.0,10,82.14,10.0,634.06,High Value,2,Potential High Value
+10146,44,Female,36.6,10,45.63,8.6,416.74,Low Engagement,0,Developing
+10147,21,Male,73.1,3,54.74,9.4,174.35,Potential,2,Potential High Value
+10148,20,Female,44.2,7,22.57,8.2,122.94,Low Engagement,1,Low Value
+10149,41,Female,41.6,10,43.04,10.0,327.94,Frequent / Budget,0,Developing
+10150,38,Female,67.0,5,20.69,7.5,100.87,Potential,1,Low Value
+10151,38,Male,60.4,14,62.73,8.6,804.75,Potential,0,Developing
+10152,39,Male,22.1,9,69.97,4.6,610.3,Low Engagement,1,Low Value
+10153,28,Female,87.5,12,51.01,10.0,539.49,High Value,2,Potential High Value
+10154,38,Female,83.7,7,60.15,8.7,350.46,Potential,2,Potential High Value
+10155,38,Male,34.0,9,49.14,10.0,484.09,Frequent / Budget,0,Developing
+10156,27,Female,53.8,8,68.33,9.3,550.62,Potential,0,Developing
+10157,56,Female,56.2,12,57.33,10.0,584.82,High Value,0,Developing
+10158,40,Male,50.6,9,19.26,9.3,157.7,Potential,0,Developing
+10159,22,Female,35.1,12,71.92,10.0,902.66,Frequent / Budget,0,Developing
+10160,42,Male,33.3,3,47.99,7.9,113.18,Low Engagement,1,Low Value
+10161,24,Male,44.5,6,32.13,7.3,158.8,Low Engagement,1,Low Value
+10162,44,Male,76.3,6,47.1,8.6,222.3,Potential,2,Potential High Value
+10163,48,Female,57.5,7,20.76,6.0,168.01,Potential,1,Low Value
+10164,26,Male,38.1,13,32.5,10.0,475.82,Frequent / Budget,0,Developing
+10165,46,Male,63.7,6,57.57,7.9,389.17,Potential,1,Low Value
+10166,40,Male,15.0,8,59.08,7.5,523.76,Low Engagement,1,Low Value
+10167,44,Female,75.5,8,60.52,10.0,525.16,High Value,2,Potential High Value
+10168,56,Female,20.6,14,55.06,9.7,761.97,Frequent / Budget,0,Developing
+10169,32,Male,38.2,10,42.53,9.9,455.56,Frequent / Budget,0,Developing
+10170,27,Male,27.2,9,54.02,8.3,373.96,Low Engagement,0,Developing
+10171,25,Female,25.1,9,47.13,10.0,449.93,Frequent / Budget,0,Developing
+10172,26,Male,75.9,5,25.74,5.2,146.58,Potential,1,Low Value
+10173,34,Male,36.5,11,41.1,10.0,452.18,Frequent / Budget,0,Developing
+10174,39,Male,52.6,14,71.01,10.0,923.31,High Value,0,Developing
+10175,38,Male,44.1,7,83.59,8.2,520.01,Low Engagement,0,Developing
+10176,44,Male,55.8,10,66.72,10.0,714.84,High Value,0,Developing
+10177,35,Male,46.6,10,82.79,10.0,907.71,High Value,0,Developing
+10178,51,Male,25.3,10,56.54,10.0,670.27,Frequent / Budget,0,Developing
+10179,32,Female,70.5,4,86.36,10.0,318.21,High Value,2,Potential High Value
+10180,65,Male,36.0,9,91.98,10.0,939.48,Frequent / Budget,0,Developing
+10181,42,Female,22.3,10,23.8,6.7,245.3,Low Engagement,1,Low Value
+10182,26,Female,37.1,8,58.99,10.0,562.25,Frequent / Budget,0,Developing
+10183,23,Male,88.4,7,56.56,9.5,401.43,High Value,2,Potential High Value
+10184,40,Female,66.0,5,47.37,9.0,238.94,Potential,2,Potential High Value
+10185,33,Male,38.5,17,63.85,10.0,1127.72,Frequent / Budget,0,Developing
+10186,43,Female,38.5,12,55.74,9.4,752.26,Low Engagement,0,Developing
+10187,40,Male,38.9,10,41.76,10.0,514.63,Frequent / Budget,0,Developing
+10188,34,Male,114.6,8,54.52,10.0,343.16,High Value,2,Potential High Value
+10189,26,Male,53.4,14,76.68,9.6,833.82,High Value,0,Developing
+10190,18,Female,54.6,5,58.29,9.6,355.21,High Value,2,Potential High Value
+10191,30,Male,71.5,11,66.29,10.0,740.08,High Value,2,Potential High Value
+10192,44,Female,50.1,9,50.01,9.1,475.95,Potential,0,Developing
+10193,37,Male,40.0,9,63.14,10.0,563.27,Frequent / Budget,0,Developing
+10194,21,Female,41.2,6,33.23,7.0,158.87,Low Engagement,1,Low Value
+10195,37,Male,43.6,10,46.01,9.6,521.77,Frequent / Budget,0,Developing
+10196,39,Female,44.3,6,53.15,10.0,358.32,Frequent / Budget,0,Developing
+10197,25,Male,62.4,7,32.03,8.6,203.1,Potential,1,Low Value
+10198,37,Male,46.1,9,40.06,6.9,325.61,Low Engagement,1,Low Value
+10199,36,Male,62.6,6,60.64,9.1,425.3,Potential,2,Potential High Value
+10200,22,Male,43.4,14,57.34,10.0,631.11,Frequent / Budget,0,Developing
+10201,39,Female,46.6,12,69.51,10.0,993.06,High Value,0,Developing
+10202,41,Male,18.3,10,44.19,10.0,388.13,Frequent / Budget,0,Developing
+10203,47,Female,68.0,7,56.04,9.2,410.52,Potential,2,Potential High Value
+10204,47,Male,52.6,10,42.91,8.0,522.64,Potential,0,Developing
+10205,20,Female,70.5,10,67.71,10.0,737.4,High Value,2,Potential High Value
+10206,25,Male,15.0,4,76.43,10.0,292.64,Frequent / Budget,0,Developing
+10207,41,Male,115.2,8,63.7,8.2,557.89,Potential,2,Potential High Value
+10208,41,Female,42.3,9,74.1,10.0,614.88,Frequent / Budget,0,Developing
+10209,41,Male,74.1,9,55.58,8.1,444.51,Potential,2,Potential High Value
+10210,70,Male,28.2,8,69.5,7.6,694.08,Low Engagement,1,Low Value
+10211,41,Female,59.3,7,56.36,8.9,443.99,Potential,2,Potential High Value
+10212,47,Female,28.0,6,36.55,8.5,235.17,Low Engagement,1,Low Value
+10213,45,Male,34.0,11,59.44,10.0,606.53,Frequent / Budget,0,Developing
+10214,42,Male,106.5,6,37.08,7.4,172.33,Potential,2,Potential High Value
+10215,32,Female,41.3,9,97.1,10.0,669.0,Frequent / Budget,0,Developing
+10216,43,Male,49.6,9,48.99,7.4,452.85,Potential,1,Low Value
+10217,26,Male,66.6,9,66.61,10.0,678.03,High Value,2,Potential High Value
+10218,32,Male,56.2,7,54.78,9.7,390.63,High Value,0,Developing
+10219,30,Female,48.2,9,32.79,10.0,345.39,High Value,0,Developing
+10220,36,Female,53.0,8,20.83,10.0,127.77,High Value,0,Developing
+10221,60,Male,132.7,11,68.48,10.0,703.09,High Value,2,Potential High Value
+10222,18,Male,43.8,8,82.89,9.3,575.94,Low Engagement,0,Developing
+10223,43,Male,49.3,9,41.77,9.8,366.02,High Value,0,Developing
+10224,18,Female,72.2,10,25.18,9.2,197.96,Potential,2,Potential High Value
+10225,30,Male,74.0,9,49.15,10.0,542.79,High Value,2,Potential High Value
+10226,47,Male,76.8,7,38.13,10.0,229.98,High Value,2,Potential High Value
+10227,36,Female,60.0,10,43.29,9.3,524.31,Potential,0,Developing
+10228,23,Male,26.9,8,65.99,7.1,508.36,Low Engagement,1,Low Value
+10229,27,Female,93.9,9,54.09,10.0,604.99,High Value,2,Potential High Value
+10230,42,Male,26.9,12,40.07,10.0,493.84,Frequent / Budget,0,Developing
+10231,27,Male,51.6,8,65.59,9.1,637.75,Potential,0,Developing
+10232,37,Male,32.0,10,67.0,10.0,504.29,Frequent / Budget,0,Developing
+10233,36,Female,43.7,9,48.93,9.8,495.03,Frequent / Budget,0,Developing
+10234,28,Female,52.2,7,57.48,10.0,483.45,High Value,0,Developing
+10235,59,Female,52.0,7,64.37,5.8,369.42,Potential,1,Low Value
+10236,42,Male,54.4,15,62.67,10.0,750.22,High Value,0,Developing
+10237,18,Female,93.0,13,55.73,10.0,697.17,High Value,2,Potential High Value
+10238,37,Male,55.2,6,80.79,10.0,589.85,High Value,0,Developing
+10239,28,Male,40.3,13,65.49,10.0,869.41,Frequent / Budget,0,Developing
+10240,44,Female,69.4,9,46.89,7.4,427.8,Potential,1,Low Value
+10241,26,Male,76.9,8,47.0,10.0,308.53,High Value,2,Potential High Value
+10242,34,Male,25.9,5,44.95,9.8,168.65,Frequent / Budget,0,Developing
+10243,41,Male,58.9,6,66.38,5.9,460.04,Potential,1,Low Value
+10244,45,Male,61.7,6,43.79,7.8,208.56,Potential,1,Low Value
+10245,22,Male,39.4,5,47.35,7.9,252.59,Low Engagement,1,Low Value
+10246,31,Female,83.6,8,74.04,7.0,715.11,Potential,2,Potential High Value
+10247,30,Male,42.1,10,58.45,9.8,499.35,Frequent / Budget,0,Developing
+10248,28,Female,47.6,8,76.57,10.0,663.18,High Value,0,Developing
+10249,54,Female,41.6,7,69.37,8.7,383.3,Low Engagement,0,Developing
+10250,39,Male,45.3,8,33.82,9.3,284.6,Low Engagement,0,Developing
+10251,21,Male,27.5,5,53.16,8.7,221.14,Low Engagement,1,Low Value
+10252,45,Male,23.5,10,72.82,10.0,814.11,Frequent / Budget,0,Developing
+10253,58,Female,92.2,11,33.0,8.7,326.92,Potential,2,Potential High Value
+10254,46,Male,30.7,12,62.55,10.0,736.86,Frequent / Budget,0,Developing
+10255,18,Female,28.8,12,54.29,8.1,683.87,Low Engagement,0,Developing
+10256,30,Male,17.1,9,23.41,9.0,176.06,Low Engagement,0,Developing
+10257,49,Female,33.8,11,57.15,10.0,704.6,Frequent / Budget,0,Developing
+10258,27,Male,24.8,10,39.93,9.0,359.9,Low Engagement,0,Developing
+10259,40,Male,94.2,9,33.98,8.0,330.65,Potential,2,Potential High Value
+10260,44,Female,70.9,4,55.16,9.2,182.94,Potential,2,Potential High Value
+10261,25,Female,33.0,6,20.24,8.1,132.86,Low Engagement,1,Low Value
+10262,34,Male,124.0,8,42.86,10.0,279.14,High Value,2,Potential High Value
+10263,18,Female,70.0,8,100.92,10.0,777.23,High Value,2,Potential High Value
+10264,24,Male,38.9,9,66.7,5.8,524.42,Low Engagement,1,Low Value
+10265,32,Female,15.0,6,39.13,10.0,263.94,Frequent / Budget,0,Developing
+10266,21,Female,126.2,8,80.27,10.0,565.75,High Value,2,Potential High Value
+10267,53,Male,24.1,8,37.14,10.0,353.83,Frequent / Budget,0,Developing
+10268,19,Male,21.5,8,45.03,2.8,430.81,Low Engagement,1,Low Value
+10269,30,Male,71.3,8,34.32,9.7,232.89,High Value,2,Potential High Value
+10270,36,Female,134.9,11,59.61,9.8,693.03,High Value,2,Potential High Value
+10271,51,Female,83.9,8,79.64,8.1,505.78,Potential,2,Potential High Value
+10272,19,Male,58.0,10,37.02,9.9,350.12,High Value,0,Developing
+10273,48,Male,58.8,8,17.91,8.2,158.56,Potential,1,Low Value
+10274,35,Female,66.1,6,74.64,10.0,483.54,High Value,2,Potential High Value
+10275,24,Female,63.3,9,82.97,10.0,793.29,High Value,0,Developing
+10276,40,Female,51.1,13,19.09,8.4,221.19,Potential,0,Developing
+10277,37,Male,47.2,5,63.28,7.4,297.1,Potential,1,Low Value
+10278,28,Male,43.8,10,59.08,8.9,473.51,Low Engagement,0,Developing
+10279,36,Male,32.1,8,40.83,6.0,362.41,Low Engagement,1,Low Value
+10280,31,Female,39.7,10,29.9,7.1,299.58,Low Engagement,1,Low Value
+10281,36,Male,21.0,11,72.85,10.0,885.0,Frequent / Budget,0,Developing
+10282,42,Female,43.1,7,58.22,10.0,356.38,Frequent / Budget,0,Developing
+10283,52,Male,28.8,12,59.58,10.0,652.2,Frequent / Budget,0,Developing
+10284,21,Female,27.4,7,43.81,7.4,281.25,Low Engagement,1,Low Value
+10285,58,Female,48.8,10,40.57,7.7,309.5,Potential,1,Low Value
+10286,18,Female,84.2,10,15.0,9.2,138.08,Potential,2,Potential High Value
+10287,33,Male,68.0,8,50.9,10.0,468.95,High Value,2,Potential High Value
+10288,41,Male,22.2,8,80.9,10.0,775.77,Frequent / Budget,0,Developing
+10289,38,Male,28.8,9,38.98,9.9,354.02,Frequent / Budget,0,Developing
+10290,28,Female,68.7,13,27.6,10.0,350.82,High Value,0,Developing
+10291,33,Female,28.9,8,62.84,8.6,384.79,Low Engagement,0,Developing
+10292,30,Female,40.7,5,66.16,7.9,393.52,Low Engagement,1,Low Value
+10293,29,Female,57.6,8,44.45,10.0,269.01,High Value,0,Developing
+10294,44,Female,29.1,8,48.72,8.7,476.43,Low Engagement,0,Developing
+10295,39,Male,47.2,8,59.75,9.2,475.42,Potential,0,Developing
+10296,27,Female,24.7,6,52.2,8.5,288.45,Low Engagement,1,Low Value
+10297,45,Male,34.3,8,73.0,8.8,707.87,Low Engagement,0,Developing
+10298,38,Male,52.0,7,98.87,10.0,527.51,High Value,0,Developing
+10299,44,Male,22.0,8,24.24,5.0,201.81,Low Engagement,1,Low Value
+10300,42,Male,54.9,8,77.14,10.0,632.22,High Value,0,Developing
+10301,26,Male,44.6,12,56.89,10.0,586.87,Frequent / Budget,0,Developing
+10302,29,Female,57.7,11,79.99,10.0,848.6,High Value,0,Developing
+10303,43,Male,49.8,9,68.04,10.0,658.98,High Value,0,Developing
+10304,42,Female,83.1,12,56.1,10.0,749.65,High Value,2,Potential High Value
+10305,35,Male,47.6,8,68.68,10.0,412.28,High Value,0,Developing
+10306,36,Male,37.1,12,47.91,10.0,700.5,Frequent / Budget,0,Developing
+10307,49,Male,47.5,5,41.06,4.7,170.86,Potential,1,Low Value
+10308,28,Male,57.5,7,69.6,9.9,422.3,High Value,0,Developing
+10309,41,Female,46.0,9,39.8,9.6,315.84,Frequent / Budget,0,Developing
+10310,33,Male,45.8,13,66.56,10.0,665.32,Frequent / Budget,0,Developing
+10311,33,Female,32.8,7,55.55,8.8,315.56,Low Engagement,0,Developing
+10312,47,Male,33.4,7,15.0,8.3,130.53,Low Engagement,1,Low Value
+10313,44,Female,23.9,9,44.66,10.0,364.8,Frequent / Budget,0,Developing
+10314,44,Female,98.9,11,61.03,10.0,542.2,High Value,2,Potential High Value
+10315,49,Female,25.7,10,47.69,9.6,383.19,Frequent / Budget,0,Developing
+10316,35,Male,32.9,14,15.0,10.0,233.04,Frequent / Budget,0,Developing
+10317,43,Male,32.6,9,78.77,9.9,834.61,Frequent / Budget,0,Developing
+10318,32,Male,67.3,12,58.05,10.0,611.95,High Value,0,Developing
+10319,39,Female,39.4,11,62.99,9.6,526.91,Frequent / Budget,0,Developing
+10320,34,Male,78.9,12,46.48,10.0,480.54,High Value,2,Potential High Value
+10321,36,Male,33.2,14,64.57,9.0,703.53,Low Engagement,0,Developing
+10322,42,Female,51.0,7,88.03,9.2,494.01,Potential,0,Developing
+10323,26,Male,30.9,13,41.77,10.0,524.41,Frequent / Budget,0,Developing
+10324,58,Female,118.2,8,85.01,8.3,588.24,Potential,2,Potential High Value
+10325,24,Male,26.4,10,62.17,9.8,626.66,Frequent / Budget,0,Developing
+10326,22,Male,51.7,6,39.35,3.9,207.0,Potential,1,Low Value
+10327,48,Female,59.9,9,94.82,8.3,1041.35,Potential,0,Developing
+10328,44,Male,54.2,11,62.05,8.7,821.09,Potential,0,Developing
+10329,42,Female,41.4,10,67.18,10.0,694.24,Frequent / Budget,0,Developing
+10330,42,Male,42.4,3,50.15,8.0,139.5,Low Engagement,1,Low Value
+10331,35,Male,45.9,9,40.67,9.3,344.28,Low Engagement,0,Developing
+10332,25,Female,42.1,8,58.02,8.8,443.7,Low Engagement,0,Developing
+10333,36,Female,69.4,5,83.47,8.3,464.84,Potential,2,Potential High Value
+10334,28,Female,121.7,9,49.43,10.0,434.11,High Value,2,Potential High Value
+10335,46,Male,35.0,14,54.52,10.0,899.42,Frequent / Budget,0,Developing
+10336,33,Female,24.3,6,81.21,8.7,595.45,Low Engagement,0,Developing
+10337,26,Male,43.2,5,49.59,10.0,227.61,Frequent / Budget,0,Developing
+10338,31,Male,143.7,10,64.18,10.0,661.28,High Value,2,Potential High Value
+10339,40,Female,31.3,5,70.79,6.4,282.29,Low Engagement,1,Low Value
+10340,29,Male,94.1,7,51.46,9.9,306.27,High Value,2,Potential High Value
+10341,26,Female,95.7,9,60.58,10.0,521.63,High Value,2,Potential High Value
+10342,38,Male,35.1,12,66.9,10.0,684.87,Frequent / Budget,0,Developing
+10343,38,Male,58.1,9,47.78,9.8,510.98,High Value,0,Developing
+10344,29,Female,93.6,5,69.68,8.5,288.87,Potential,2,Potential High Value
+10345,30,Female,37.9,7,45.15,9.7,309.04,Frequent / Budget,0,Developing
+10346,38,Female,41.1,10,42.85,10.0,451.15,Frequent / Budget,0,Developing
+10347,19,Female,34.6,10,27.51,7.2,301.49,Low Engagement,1,Low Value
+10348,20,Female,28.5,7,45.94,8.8,302.78,Low Engagement,1,Low Value
+10349,27,Female,33.6,11,40.32,6.1,525.37,Low Engagement,1,Low Value
+10350,33,Female,25.9,7,47.78,8.5,345.89,Low Engagement,1,Low Value
+10351,38,Male,45.7,5,66.02,6.9,320.12,Low Engagement,1,Low Value
+10352,51,Male,31.8,5,23.94,8.1,93.8,Low Engagement,1,Low Value
+10353,44,Male,50.0,9,19.46,5.9,172.05,Potential,1,Low Value
+10354,33,Female,22.3,10,41.52,8.9,481.78,Low Engagement,0,Developing
+10355,35,Female,52.2,11,63.3,10.0,736.18,High Value,0,Developing
+10356,24,Male,65.5,14,60.2,10.0,982.77,High Value,0,Developing
+10357,35,Female,18.3,12,41.23,7.2,493.28,Low Engagement,0,Developing
+10358,32,Female,53.2,9,76.05,10.0,553.88,High Value,0,Developing
+10359,39,Male,78.2,12,43.15,9.6,391.88,High Value,2,Potential High Value
+10360,26,Female,26.1,2,63.32,7.0,114.18,Low Engagement,1,Low Value
+10361,41,Female,95.5,15,48.47,10.0,799.02,High Value,2,Potential High Value
+10362,52,Male,54.3,11,39.36,10.0,495.8,High Value,0,Developing
+10363,34,Female,32.8,10,44.11,7.1,396.05,Low Engagement,1,Low Value
+10364,39,Male,43.9,11,68.21,10.0,748.68,Frequent / Budget,0,Developing
+10365,43,Female,57.9,7,61.5,8.5,413.52,Potential,2,Potential High Value
+10366,31,Female,46.6,13,72.43,10.0,899.46,High Value,0,Developing
+10367,37,Female,57.3,7,61.5,8.2,372.67,Potential,1,Low Value
+10368,35,Male,29.7,12,26.0,9.1,255.27,Low Engagement,0,Developing
+10369,36,Female,48.6,8,93.06,9.0,631.58,Potential,0,Developing
+10370,26,Female,23.8,8,61.75,10.0,384.17,Frequent / Budget,0,Developing
+10371,35,Male,42.8,8,64.26,7.1,436.49,Low Engagement,1,Low Value
+10372,40,Female,30.0,4,48.22,8.4,145.55,Low Engagement,1,Low Value
+10373,51,Male,32.3,6,75.04,5.2,478.89,Low Engagement,1,Low Value
+10374,46,Female,78.5,8,35.32,9.4,256.62,Potential,2,Potential High Value
+10375,59,Male,73.5,15,65.98,10.0,1223.84,High Value,0,Developing
+10376,27,Male,59.2,10,17.57,6.9,148.79,Potential,1,Low Value
+10377,45,Male,27.5,5,67.19,9.8,310.05,Frequent / Budget,0,Developing
+10378,37,Female,39.0,13,35.57,10.0,429.54,Frequent / Budget,0,Developing
+10379,59,Male,77.7,10,59.99,10.0,452.46,High Value,2,Potential High Value
+10380,26,Female,48.0,6,79.43,7.7,557.41,Potential,1,Low Value
+10381,26,Male,127.8,6,69.81,10.0,320.85,High Value,2,Potential High Value
+10382,28,Male,53.7,8,77.04,5.7,751.97,Potential,1,Low Value
+10383,18,Female,49.1,14,75.18,10.0,1258.85,High Value,0,Developing
+10384,29,Female,39.2,11,45.56,7.3,510.06,Low Engagement,1,Low Value
+10385,27,Male,47.8,11,65.77,10.0,739.24,High Value,0,Developing
+10386,37,Female,42.0,6,23.95,7.4,154.75,Low Engagement,1,Low Value
+10387,39,Female,61.9,8,42.64,8.8,321.86,Potential,2,Potential High Value
+10388,56,Female,69.2,6,80.07,10.0,515.78,High Value,2,Potential High Value
+10389,45,Male,31.6,12,48.07,10.0,445.54,Frequent / Budget,0,Developing
+10390,29,Male,24.7,8,21.38,7.5,132.9,Low Engagement,1,Low Value
+10391,25,Female,19.7,10,91.25,8.8,892.99,Low Engagement,0,Developing
+10392,40,Male,56.6,8,65.12,10.0,533.89,High Value,0,Developing
+10393,20,Female,27.4,9,68.76,10.0,738.84,Frequent / Budget,0,Developing
+10394,55,Female,17.1,7,37.35,9.8,209.77,Frequent / Budget,0,Developing
+10395,48,Female,53.6,3,60.11,10.0,209.42,High Value,2,Potential High Value
+10396,30,Female,138.2,7,59.64,5.2,356.96,Potential,2,Potential High Value
+10397,18,Female,44.9,7,40.21,8.5,266.56,Low Engagement,1,Low Value
+10398,50,Male,65.6,13,51.94,10.0,613.3,High Value,0,Developing
+10399,34,Female,46.7,6,27.99,7.8,159.56,Potential,1,Low Value
+10400,49,Male,43.0,6,48.76,4.3,241.43,Low Engagement,1,Low Value
+10401,18,Male,68.1,7,72.53,7.1,508.62,Potential,1,Low Value
+10402,28,Female,39.5,7,41.56,9.3,334.8,Low Engagement,0,Developing
+10403,35,Female,50.8,10,89.33,10.0,867.19,High Value,0,Developing
+10404,36,Female,52.0,13,29.15,10.0,377.17,High Value,0,Developing
+10405,30,Female,33.3,11,50.32,9.0,650.04,Low Engagement,0,Developing
+10406,42,Male,70.3,6,43.18,8.8,285.77,Potential,2,Potential High Value
+10407,23,Male,41.6,11,51.76,8.8,566.64,Low Engagement,0,Developing
+10408,33,Female,32.0,13,79.69,10.0,910.46,Frequent / Budget,0,Developing
+10409,36,Male,57.3,5,37.28,7.9,222.28,Potential,1,Low Value
+10410,41,Male,30.0,9,46.88,8.1,438.17,Low Engagement,1,Low Value
+10411,43,Male,45.6,9,66.78,10.0,517.22,Frequent / Budget,0,Developing
+10412,23,Male,44.8,8,56.68,6.4,401.09,Low Engagement,1,Low Value
+10413,18,Male,73.4,7,58.15,8.9,468.75,Potential,2,Potential High Value
+10414,49,Male,55.7,7,37.63,7.1,203.37,Potential,1,Low Value
+10415,39,Male,44.5,9,53.71,10.0,602.33,Frequent / Budget,0,Developing
+10416,27,Male,65.0,10,75.37,10.0,614.4,High Value,0,Developing
+10417,52,Female,84.1,12,26.03,9.0,358.6,Potential,2,Potential High Value
+10418,36,Male,57.8,12,42.45,10.0,482.6,High Value,0,Developing
+10419,48,Male,45.2,7,22.32,10.0,155.63,Frequent / Budget,0,Developing
+10420,36,Female,24.9,9,64.67,8.3,692.81,Low Engagement,0,Developing
+10421,58,Male,27.9,11,77.06,7.9,810.75,Low Engagement,0,Developing
+10422,54,Female,39.2,7,51.7,9.5,368.68,Frequent / Budget,0,Developing
+10423,32,Female,34.2,8,36.9,9.5,228.68,Frequent / Budget,0,Developing
+10424,46,Male,41.4,7,37.43,9.8,196.82,Frequent / Budget,0,Developing
+10425,42,Male,46.2,9,49.65,10.0,389.83,Frequent / Budget,0,Developing
+10426,50,Female,57.1,9,49.58,10.0,486.51,High Value,0,Developing
+10427,24,Female,43.6,14,71.41,9.0,810.42,Low Engagement,0,Developing
+10428,43,Male,56.0,6,42.96,6.2,207.98,Potential,1,Low Value
+10429,47,Female,46.3,10,62.83,10.0,600.33,Frequent / Budget,0,Developing
+10430,18,Male,18.5,9,49.5,7.7,478.43,Low Engagement,1,Low Value
+10431,22,Female,29.5,12,41.59,8.0,552.0,Low Engagement,0,Developing
+10432,18,Male,42.2,8,49.05,10.0,329.31,Frequent / Budget,0,Developing
+10433,32,Female,26.1,9,61.06,7.0,434.02,Low Engagement,1,Low Value
+10434,43,Female,58.9,5,71.47,8.1,436.04,Potential,1,Low Value
+10435,52,Female,89.6,8,50.46,9.2,355.37,Potential,2,Potential High Value
+10436,36,Male,77.9,9,33.33,10.0,352.97,High Value,2,Potential High Value
+10437,53,Male,40.9,13,72.99,8.4,1121.32,Low Engagement,0,Developing
+10438,20,Male,88.0,9,38.83,10.0,397.09,High Value,2,Potential High Value
+10439,18,Male,48.1,8,59.69,7.9,398.45,Potential,1,Low Value
+10440,34,Male,38.7,10,54.55,10.0,633.27,Frequent / Budget,0,Developing
+10441,39,Female,34.1,10,52.15,8.5,591.71,Low Engagement,0,Developing
+10442,35,Male,39.3,11,46.23,10.0,533.12,Frequent / Budget,0,Developing
+10443,18,Male,37.8,5,66.16,6.9,303.87,Low Engagement,1,Low Value
+10444,34,Female,48.6,6,15.0,3.2,79.31,Potential,1,Low Value
+10445,21,Female,48.4,11,75.46,9.6,673.13,High Value,0,Developing
+10446,42,Female,45.1,14,38.57,10.0,542.61,Frequent / Budget,0,Developing
+10447,39,Female,54.8,14,62.34,10.0,909.97,High Value,0,Developing
+10448,25,Male,76.9,8,61.39,7.3,456.58,Potential,2,Potential High Value
+10449,29,Male,69.0,9,77.95,8.1,692.91,Potential,2,Potential High Value
+10450,23,Female,23.1,7,58.56,10.0,381.95,Frequent / Budget,0,Developing
+10451,34,Female,15.0,11,40.08,7.7,471.96,Low Engagement,0,Developing
+10452,46,Male,68.5,9,26.11,8.8,282.14,Potential,2,Potential High Value
+10453,24,Female,24.3,6,48.72,8.2,243.2,Low Engagement,1,Low Value
+10454,41,Male,40.7,11,19.75,10.0,204.37,Frequent / Budget,0,Developing
+10455,29,Male,26.6,14,43.69,10.0,501.83,Frequent / Budget,0,Developing
+10456,26,Female,20.0,4,49.73,6.1,211.35,Low Engagement,1,Low Value
+10457,34,Female,57.4,11,42.58,10.0,521.98,High Value,0,Developing
+10458,24,Female,63.3,2,55.75,5.5,135.58,Potential,1,Low Value
+10459,29,Male,34.7,6,50.75,6.1,270.83,Low Engagement,1,Low Value
+10460,22,Female,15.0,11,49.1,10.0,661.68,Frequent / Budget,0,Developing
+10461,57,Male,35.2,14,15.0,10.0,164.14,Frequent / Budget,0,Developing
+10462,35,Male,53.7,12,31.7,10.0,399.99,High Value,0,Developing
+10463,27,Female,23.1,7,66.57,10.0,362.8,Frequent / Budget,0,Developing
+10464,37,Female,48.9,10,69.48,8.3,831.6,Potential,0,Developing
+10465,34,Female,44.7,12,21.9,10.0,266.72,Frequent / Budget,0,Developing
+10466,33,Female,58.4,9,40.34,7.6,393.8,Potential,1,Low Value
+10467,42,Female,47.5,7,74.3,6.5,606.33,Potential,1,Low Value
+10468,43,Female,29.0,5,42.08,7.1,173.61,Low Engagement,1,Low Value
+10469,29,Male,77.1,11,52.99,10.0,448.41,High Value,2,Potential High Value
+10470,29,Male,41.9,14,80.95,10.0,1347.99,Frequent / Budget,0,Developing
+10471,32,Male,44.5,7,48.49,6.4,308.02,Low Engagement,1,Low Value
+10472,18,Male,29.6,7,45.92,7.9,261.81,Low Engagement,1,Low Value
+10473,18,Female,36.9,9,52.17,9.5,462.13,Frequent / Budget,0,Developing
+10474,50,Male,30.2,9,88.36,7.6,834.33,Low Engagement,0,Developing
+10475,53,Male,41.6,11,63.03,10.0,530.73,Frequent / Budget,0,Developing
+10476,32,Male,97.2,8,55.34,9.0,392.89,Potential,2,Potential High Value
+10477,41,Female,24.3,9,45.56,7.1,314.25,Low Engagement,1,Low Value
+10478,38,Male,21.8,9,64.7,7.4,559.11,Low Engagement,1,Low Value
+10479,69,Female,87.2,14,66.87,10.0,1121.12,High Value,2,Potential High Value
+10480,47,Male,41.0,9,35.68,8.6,398.61,Low Engagement,0,Developing
+10481,34,Male,33.3,7,67.36,10.0,503.83,Frequent / Budget,0,Developing
+10482,24,Female,71.9,10,52.28,10.0,434.35,High Value,2,Potential High Value
+10483,18,Female,34.3,7,55.45,10.0,466.92,Frequent / Budget,0,Developing
+10484,37,Male,102.3,8,39.08,8.1,315.18,Potential,2,Potential High Value
+10485,27,Female,61.1,7,47.8,4.4,276.67,Potential,1,Low Value
+10486,19,Female,36.1,13,36.46,10.0,573.93,Frequent / Budget,0,Developing
+10487,28,Male,118.8,5,35.59,10.0,200.86,High Value,2,Potential High Value
+10488,23,Female,34.3,8,61.79,9.5,551.59,Frequent / Budget,0,Developing
+10489,54,Female,62.8,7,48.61,5.3,375.86,Potential,1,Low Value
+10490,45,Female,51.5,11,31.61,8.8,295.61,Potential,0,Developing
+10491,35,Female,80.8,4,94.19,8.5,322.32,Potential,2,Potential High Value
+10492,51,Female,90.9,8,34.76,6.9,304.26,Potential,2,Potential High Value
+10493,36,Female,45.7,7,74.66,4.9,449.38,Low Engagement,1,Low Value
+10494,26,Female,32.1,8,28.42,8.6,220.39,Low Engagement,1,Low Value
+10495,52,Female,55.3,6,63.22,7.4,432.8,Potential,1,Low Value
+10496,41,Female,33.2,11,50.49,10.0,634.24,Frequent / Budget,0,Developing
+10497,24,Female,111.4,9,43.68,9.7,383.93,High Value,2,Potential High Value
+10498,33,Female,47.9,7,58.54,10.0,469.65,High Value,0,Developing
+10499,25,Male,38.2,8,56.12,9.2,524.97,Low Engagement,0,Developing
+10500,20,Female,48.9,7,40.38,8.8,304.53,Potential,1,Low Value
